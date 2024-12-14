@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manchester City Media Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #0046AD;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #0046AD;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .gallery img {
+            width: 300px;
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+        }
+        .video {
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #0046AD;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Manchester City Media Gallery</h1>
+        <p>Explore the visuals and videos highlighting Manchester City FC.</p>
+    </header>
+    <main>
+        <section class="section">
+            <h2>Images</h2>
+            <div class="gallery">
+                <!-- Add your image URLs here -->
+                <img src="image1_url" alt="Manchester City Image 1">
+                <img src="image2_url" alt="Manchester City Image 2">
+                <img src="image3_url" alt="Manchester City Image 3">
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Videos</h2>
+            <div class="video">
+                <!-- Add your video URLs here -->
+                <video controls width="600">
+                    <source src="video1_url" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="video">
+                <video controls width="600">
+                    <source src="video2_url" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Manchester City Media Gallery</p>
+    </footer>
+</body>
+</html>
